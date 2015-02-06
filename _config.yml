@@ -3,7 +3,7 @@ title: Betacode
 email: hello@betacode.io
 description: > # this means to ignore newlines until "baseurl:"
   Official website of betacode.io
-baseurl: "http://betacode-io.github.io/" # the subpath of your site, e.g. /blog/
+baseurl: "http://betacode-io.github.io" # the subpath of your site, e.g. /blog/
 url: "http://betacode.io" # the base hostname & protocol for your site
 twitter_username: ""
 github_username:  ""
