@@ -1,0 +1,110 @@
+.landing {
+  .logo {
+    padding: 0 5px 20px 5px;
+    background-color: #FA5858;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: $main-title-font;
+  }
+
+  .logo-row {
+     padding-top: 70px;
+     padding-bottom: 15px;
+  }
+
+  .company-logo h1 {
+    font-size: 80px;
+    margin-top: 0;
+  }
+
+  .intro {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    font-size: 24px;
+    line-height: 1.6em;
+  }
+
+  .intro-content {
+    padding-top: 20px;
+
+    h2 {
+      padding: 20px 0;
+      margin-bottom: 30px;
+      border-bottom: 7px solid #FA5858;
+    }
+
+    ul, ol {
+      padding: 0;
+    }
+
+    li {
+      list-style: none;
+      padding-bottom: 30px;
+
+      h3 { text-align: center; }
+      p { 
+        line-height: 1.8em; 
+        text-align: center;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .project-list {
+    padding: 20px 0 120px 0;
+
+    .project {
+      padding: 20px;
+      background: #f7f7f7;
+      border-radius: 0px;
+
+      p { font-size: 16px; }
+    }
+
+    .tags .label {
+      padding-top: 0.4em;
+    }
+  }
+
+  .hire-us {
+    background-color: #FA5858;
+    text-align: center;
+
+    h2 { 
+      padding-bottom: 20px;
+      color: #fff;
+    }
+
+    a { 
+      text-decoration: none; 
+      color: #FA5858;
+      margin-left: 10px;
+    }
+
+    .container { padding: 80px 0; }
+    .contact-box {
+      background-color: #fff;
+      color: #FA5858;
+      border-radius: 10px;
+      padding: 5px 10px 10px 10px;
+
+      h3 { font-size: 32px; }
+      .glyphicon.glyphicon-envelope {
+        font-size: 24px;
+      }
+    }
+
+    .address {
+      margin-top: 70px;
+      color: #fff;
+      font-size: 16px;
+
+      .glyphicon.glyphicon-map-marker {
+        font-size: 24px;
+        margin-bottom: 30px;
+      }
+    }
+
+  }
+}
